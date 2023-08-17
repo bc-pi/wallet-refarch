@@ -70,13 +70,14 @@ Table of Contents
      5.3.  Holder Binding
      5.4.  Non-linkability and data minimization
      5.5.  Revocation
-   6.  A Minimal Profile
-   7.  The EU Digital Identity Wallet
-   8.  Security Considerations
-   9.  IANA Considerations
-   10. References
-     10.1.  Normative References
-     10.2.  Informative References
+   6.  Profiles
+     6.1.  A Minimal Profile
+     6.2.  The EU Digital Identity Wallet
+   7.  Security Considerations
+   8.  IANA Considerations
+   9.  References
+     9.1.  Normative References
+     9.2.  Informative References
    Acknowledgments
    Author's Address
 
@@ -330,7 +331,9 @@ Table of Contents
    attempts by a verifier to verify the authenticity of proofs based on
    that credential fail.
 
-6.  A Minimal Profile
+6.  Profiles
+
+6.1.  A Minimal Profile
 
    A minimal profile of the direct presentation credential architecture
    can be produced by:
@@ -370,7 +373,7 @@ Table of Contents
    managed but as a minimal profile it illustrates the components
    necessary to make a direct presentation architecture work.
 
-7.  The EU Digital Identity Wallet
+6.2.  The EU Digital Identity Wallet
 
    The EU digital identity wallet (EUID wallet) as defined by the
    architecture reference framework [ARF] is an evolving profile for a
@@ -378,7 +381,7 @@ Table of Contents
    minimal profile above.  Note that the EUID wallet specification is in
    flux and subect to signifficant change.
 
-8.  Security Considerations
+7.  Security Considerations
 
    One of the main security considerations of a direct presentation
    credential architecture is how to establish the transactional trust
@@ -388,13 +391,13 @@ Table of Contents
    credentials are sometimes long-lived which also raises the issue of
    revocation with its associated security requirements.
 
-9.  IANA Considerations
+8.  IANA Considerations
 
    None
 
-10.  References
+9.  References
 
-10.1.  Normative References
+9.1.  Normative References
 
    [OIDC4VCI] Lodderstedt, T., Yatsuda, K., and T. Looker, "OpenID for
               Verifiable Credential Issuance", n.d.,
@@ -417,7 +420,7 @@ Table of Contents
               June 2023, <https://datatracker.ietf.org/doc/html/draft-
               ietf-oauth-selective-disclosure-jwt-05>.
 
-10.2.  Informative References
+9.2.  Informative References
 
    [ARF]      COM, "The European Digital identity Wallet architecture
               and Reference framework", n.d., <https://digital-
